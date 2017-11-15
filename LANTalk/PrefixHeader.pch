@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  LANTalk
+//
+//  Created by SaturdayNight on 26/07/2017.
+//  Copyright © 2017 SaturdayNight. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */

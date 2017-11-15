@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CommunicationVC.h
 //  LANTalk
 //
 //  Created by SaturdayNight on 26/07/2017.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CommunicationVC : UIViewController
 
+@property (nonatomic,copy) NSString *name;
 
 @end
-

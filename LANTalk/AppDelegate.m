@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FunctionChoseVC.h"
+#import "CommunicateManager.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[FunctionChoseVC alloc] init]];
+    self.window.rootViewController = nav;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

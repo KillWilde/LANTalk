@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		252103031F2832E400F18463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 252103021F2832E400F18463 /* main.m */; };
 		252103061F2832E400F18463 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 252103051F2832E400F18463 /* AppDelegate.m */; };
-		252103091F2832E400F18463 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252103081F2832E400F18463 /* ViewController.m */; };
-		2521030C1F2832E400F18463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2521030A1F2832E400F18463 /* Main.storyboard */; };
 		2521030E1F2832E400F18463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2521030D1F2832E400F18463 /* Assets.xcassets */; };
 		252103111F2832E400F18463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2521030F1F2832E400F18463 /* LaunchScreen.storyboard */; };
+		252103241F2834AE00F18463 /* CommunicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 252103231F2834AE00F18463 /* CommunicationVC.m */; };
+		252103281F283EB000F18463 /* CommunicateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 252103271F283EB000F18463 /* CommunicateManager.m */; };
+		2521032B1F28650F00F18463 /* FunctionChoseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521032A1F28650F00F18463 /* FunctionChoseVC.m */; };
+		252E4A891F2975EB006F086F /* ShowAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252E4A881F2975EB006F086F /* ShowAlertController.m */; };
+		252E4A8C1F298166006F086F /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 252E4A8B1F298166006F086F /* NetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,20 @@
 		252103021F2832E400F18463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		252103041F2832E400F18463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		252103051F2832E400F18463 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		252103071F2832E400F18463 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		252103081F2832E400F18463 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2521030B1F2832E400F18463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2521030D1F2832E400F18463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		252103101F2832E400F18463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		252103121F2832E400F18463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252103221F2834AE00F18463 /* CommunicationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationVC.h; sourceTree = "<group>"; };
+		252103231F2834AE00F18463 /* CommunicationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicationVC.m; sourceTree = "<group>"; };
+		252103251F2835F300F18463 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		252103261F283EB000F18463 /* CommunicateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicateManager.h; sourceTree = "<group>"; };
+		252103271F283EB000F18463 /* CommunicateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicateManager.m; sourceTree = "<group>"; };
+		252103291F28650F00F18463 /* FunctionChoseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionChoseVC.h; sourceTree = "<group>"; };
+		2521032A1F28650F00F18463 /* FunctionChoseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionChoseVC.m; sourceTree = "<group>"; };
+		252E4A871F2975EB006F086F /* ShowAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAlertController.h; sourceTree = "<group>"; };
+		252E4A881F2975EB006F086F /* ShowAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAlertController.m; sourceTree = "<group>"; };
+		252E4A8A1F298166006F086F /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		252E4A8B1F298166006F086F /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +71,9 @@
 			children = (
 				252103041F2832E400F18463 /* AppDelegate.h */,
 				252103051F2832E400F18463 /* AppDelegate.m */,
-				252103071F2832E400F18463 /* ViewController.h */,
-				252103081F2832E400F18463 /* ViewController.m */,
-				2521030A1F2832E400F18463 /* Main.storyboard */,
+				252E4A861F2975EB006F086F /* SelfDefine */,
+				2521031F1F28349300F18463 /* Manager */,
+				252103201F28349300F18463 /* ViewControllers */,
 				2521030D1F2832E400F18463 /* Assets.xcassets */,
 				2521030F1F2832E400F18463 /* LaunchScreen.storyboard */,
 				252103121F2832E400F18463 /* Info.plist */,
@@ -75,8 +86,48 @@
 			isa = PBXGroup;
 			children = (
 				252103021F2832E400F18463 /* main.m */,
+				252103251F2835F300F18463 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2521031F1F28349300F18463 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				252103261F283EB000F18463 /* CommunicateManager.h */,
+				252103271F283EB000F18463 /* CommunicateManager.m */,
+				252E4A8A1F298166006F086F /* NetworkManager.h */,
+				252E4A8B1F298166006F086F /* NetworkManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		252103201F28349300F18463 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				252103211F28349300F18463 /* Talk */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		252103211F28349300F18463 /* Talk */ = {
+			isa = PBXGroup;
+			children = (
+				252103221F2834AE00F18463 /* CommunicationVC.h */,
+				252103231F2834AE00F18463 /* CommunicationVC.m */,
+				252103291F28650F00F18463 /* FunctionChoseVC.h */,
+				2521032A1F28650F00F18463 /* FunctionChoseVC.m */,
+			);
+			path = Talk;
+			sourceTree = "<group>";
+		};
+		252E4A861F2975EB006F086F /* SelfDefine */ = {
+			isa = PBXGroup;
+			children = (
+				252E4A871F2975EB006F086F /* ShowAlertController.h */,
+				252E4A881F2975EB006F086F /* ShowAlertController.m */,
+			);
+			path = SelfDefine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +161,7 @@
 				TargetAttributes = {
 					252102FD1F2832E400F18463 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = L48W3WHH6N;
+						DevelopmentTeam = YG3T5AFNXY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,7 +191,6 @@
 			files = (
 				252103111F2832E400F18463 /* LaunchScreen.storyboard in Resources */,
 				2521030E1F2832E400F18463 /* Assets.xcassets in Resources */,
-				2521030C1F2832E400F18463 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,23 +201,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				252103091F2832E400F18463 /* ViewController.m in Sources */,
+				252103241F2834AE00F18463 /* CommunicationVC.m in Sources */,
+				252E4A8C1F298166006F086F /* NetworkManager.m in Sources */,
+				252E4A891F2975EB006F086F /* ShowAlertController.m in Sources */,
 				252103061F2832E400F18463 /* AppDelegate.m in Sources */,
+				2521032B1F28650F00F18463 /* FunctionChoseVC.m in Sources */,
 				252103031F2832E400F18463 /* main.m in Sources */,
+				252103281F283EB000F18463 /* CommunicateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2521030A1F2832E400F18463 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2521030B1F2832E400F18463 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2521030F1F2832E400F18463 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,11 +321,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L48W3WHH6N;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YG3T5AFNXY;
+				GCC_PREFIX_HEADER = LANTalk/PrefixHeader.pch;
 				INFOPLIST_FILE = LANTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SaturdayNight.LANTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -287,11 +336,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L48W3WHH6N;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YG3T5AFNXY;
+				GCC_PREFIX_HEADER = LANTalk/PrefixHeader.pch;
 				INFOPLIST_FILE = LANTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SaturdayNight.LANTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -314,6 +366,7 @@
 				252103171F2832E400F18463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
